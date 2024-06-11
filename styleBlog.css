@@ -1,0 +1,154 @@
+body{
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 50%;
+    height: 70px;
+    padding: 10px 70%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+    top: 0;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+    position: absolute;left: 52px;
+    font-size: 50px; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+ /*cuando pones el cursor en el link*/   
+.logo:hover{
+    color: rgb(204, 202, 202);
+    text-decoration: underline;
+}
+.nav-link{
+    justify-content: center;
+    align-items: center;
+    padding: 2px 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-decoration: none;
+}
+/*cuando pones el cursor en el link*/
+.nav-link:hover{
+    color: rgb(165, 164, 164);
+    text-decoration:  underline;
+}
+.imgPrin{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin-top: 8%;
+    padding: 2px 25%;
+    height: 310px; 
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 300px;
+    background-color: rgba(243, 242, 242, 0.219);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.box a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 15px;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.box:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
+.box a:hover {
+    color: rgba(128, 128, 128, 0.644);
+    text-decoration: underline;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.article-date {
+    color: #888;
+    font-size: 0.9em;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-description {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.article-knowMore{
+    color: red;
+    text-decoration: none;
+    border: none;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.article-knowMore:hover{
+    color: rgba(128, 128, 128, 0.534);
+}
+footer{
+    background-color: rgba(204, 203, 203, 0.329);
+    height: 80px;
+}
+footer p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+
+
+
