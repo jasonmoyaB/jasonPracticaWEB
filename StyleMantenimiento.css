@@ -54,7 +54,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 10px 70%;
-    
+   
 }
 .Mantenimiento-link{
     text-decoration: none;
@@ -124,6 +124,7 @@ header{
     gap: 1em;
     padding: 20px;
     margin-top: 1%;
+    height: 260px;
 }
 .box{
     width: 300px;
@@ -136,6 +137,9 @@ header{
     overflow: hidden;
    
 }
+.box:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
 .box-title{
     color: rgb(0, 0, 0);
     font-family: Arial,  sans-serif;
@@ -144,6 +148,93 @@ header{
     color: red;
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 
 
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px;
+    margin-top: 3%;
+    height: 260px;
+}
+.box-Container{
+    background-color: rgba(255, 255, 255, 0.678);
+    height: 130px;
+    width: 300px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.box-Container:hover{
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.384); 
+}
+.box-Container h3{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-Container p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.pie{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 14em;
+    margin-top: -5%;
+}
+.pie h5{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+}
+.pie ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: -25%;
+}
+.pie a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.pie a:hover{
+    color: rgba(139, 139, 139, 0.568);
+}
+
+footer{
+    background-color: rgba(133, 133, 133, 0.212);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer P{
+    font-family: arial;
+    font-weight: normal;
+    color: rgba(116, 115, 115, 0.884);
+    font-size: 11px;
+}
+.copyrigth{
+    font-family: arial;
+    font-weight: normal;
+    color: rgba(116, 115, 115, 0.884);
+    font-size: 11px;
+    margin-left: 9%;
+}
+footer img{
+    margin-right: 3%;
+}
