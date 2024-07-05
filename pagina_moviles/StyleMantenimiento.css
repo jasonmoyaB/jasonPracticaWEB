@@ -1,0 +1,241 @@
+body{
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 50%;
+    height: 70px;
+    padding: 10px 70%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+    top: 0;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+    position: absolute;left: 52px;
+    font-size: 50px; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+ /*cuando pones el cursor en el link*/   
+.logo:hover{
+    color: rgb(204, 202, 202);
+    text-decoration: underline;
+}
+.nav-link{
+    
+    justify-content: center;
+    align-items: center;
+    padding: 2px 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-decoration: none;
+}
+/*cuando pones el cursor en el link*/
+.nav-link:hover{
+    color: rgb(165, 164, 164);
+    text-decoration:  underline;
+}
+.apart-Mant{
+    background-color: rgba(201, 198, 198, 0.308);
+    height: 50px;
+    margin-top: 100px;/*para que aparesca los links*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 70%;
+   
+}
+.Mantenimiento-link{
+    text-decoration: none;
+    color: black;
+    padding: 2px 10px;  /* para la posision en donde quiero que esten los links */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Mantenimiento-link:hover{
+    color: rgba(160, 160, 160, 0.493);
+   
+}
+.imgPrin{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px 25%;
+    margin-top: 4%;
+}
+.intro{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+}
+.card{
+    background-color: rgba(216, 214, 214, 0.329);
+    width: 53%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 410px;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+.card-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 3%;
+    
+}
+.card-content{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 318px;
+    width: 410px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+.card-content h2{
+    font: normal 30px/30px "ProximaNova-Regular","Open Sans",sans-serif;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.card-img:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
+.card-content:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
+.container-info{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px;
+    margin-top: 1%;
+    height: 260px;
+}
+.box{
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+   
+}
+.box:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+}
+.box-title{
+    color: rgb(0, 0, 0);
+    font-family: Arial,  sans-serif;
+}
+.box button{
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 20px;
+    margin-top: 3%;
+    height: 260px;
+}
+.box-Container{
+    background-color: rgba(255, 255, 255, 0.678);
+    height: 130px;
+    width: 300px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.box-Container:hover{
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.384); 
+}
+.box-Container h3{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-Container p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+.pie{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 14em;
+    margin-top: -5%;
+}
+.pie h5{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+}
+.pie ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: -25%;
+}
+.pie a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.pie a:hover{
+    color: rgba(139, 139, 139, 0.568);
+    
+}
+
+footer{
+    background-color: rgba(133, 133, 133, 0.212);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer P{
+    font-family: arial;
+    font-weight: normal;
+    color: rgba(116, 115, 115, 0.884);
+    font-size: 11px;
+}
+.copyrigth{
+    font-family: arial;
+    font-weight: normal;
+    color: rgba(116, 115, 115, 0.884);
+    font-size: 11px;
+    margin-left: 9%;
+}
+footer img{
+    margin-right: 3%;
+}
